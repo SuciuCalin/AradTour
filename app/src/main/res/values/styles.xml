@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--content_main.xml styles-->
+    <style name="ContentMain_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/ContentMain_ParentLayout_Margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ContentMain_ChildrenLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ContentMain_ChildrenLayout_Height</item>
+    </style>
+
+    <style name="ContentMain_ViewPager" parent="ContentMain_ChildrenLayout">
+        <item name="android:layout_marginBottom">@dimen/ContentMain_ViewPager_BottomMargin</item>
+        <item name="android:layout_weight">@integer/ContentMain_ViewPager_Weight</item>
+    </style>
+
+    <style name="ContentMain_ScrollView" parent="ContentMain_ChildrenLayout">
+        <item name="android:layout_weight">@integer/ContentMain_ScrollView_Weight</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="ContentMain_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">@string/city_info</item>
+    </style>
+
+
+    <!--list_item.xml styles-->
+    <style name="ListItem_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ListItem_ParentLayout_Height</item>
+        <item name="android:minHeight">@dimen/ListItem_ParentLayout_minHeight</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ListItem_ImageView">
+        <item name="android:layout_width">@dimen/ListItem_ImageView_Width</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ListItem_TextViewsLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ListItem_ParentLayout_Height</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/ListItem_TextViewsLayout_PaddingLeft</item>
+    </style>
+
+    <style name="ListItem_TextViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ListItem_TextViews_Height</item>
+        <item name="android:layout_weight">@integer/ListItem_TextViews_Weight</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/ListItem_TextViews_TextColor</item>
+    </style>
+
+    <style name="ListItem_NameText" parent="ListItem_TextViews">
+        <item name="android:gravity">bottom</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListItem_AddressText" parent="ListItem_TextViews">
+        <item name="android:gravity">top</item>
+    </style>
+
+
+    <!--locations_list.xml styles-->
+    <style name="LocationsList_ParentLayout" parent="ContentMain_ParentLayout"/>
+
+
+    <!--nav_header_main.xml styles-->
+    <style name="NavHeaderMain_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/NavHeaderMain_ParentLayout_Height</item>
+        <item name="android:background">@drawable/arad_six</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">start</item>
+        <item name="android:padding">@dimen/NavHeaderMain_ParentLayout_Padding</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="NavHeaderMain_TextView" parent="NavHeaderMain_TextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/NavHeaderText</item>
+        <item name="android:paddingTop">@dimen/NavHeaderMain_TextView_PaddingTop</item>
+    </style>
+
+    <style name="NavHeaderMain_TextStyle">
+        <item name="android:textSize">@dimen/NavHeaderMain_TextStyle_TextSize</item>
+        <item name="android:textColor">@color/NavHeaderMain_TextStyle_TextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/NavHeaderMain_TextStyle_ShadowColor</item>
+        <item name="android:shadowDx">@integer/NavHeaderMain_TextStyle_ShadowD</item>
+        <item name="android:shadowDy">@integer/NavHeaderMain_TextStyle_ShadowD</item>
+        <item name="android:shadowRadius">@integer/NavHeaderMain_TextStyle_ShadowRadius</item>
+        <item name="android:fontFamily">cursive</item>
+    </style>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItem_ParentLayout">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/ListItem_ImageView" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/ListItem_TextViewsLayout">
+
+        <TextView
+            android:id="@+id/place_name"
+            style="@style/ListItem_NameText"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/place_address"
+            style="@style/ListItem_AddressText"
+            tools:text="Address" />
+
+    </LinearLayout>
+</LinearLayout>

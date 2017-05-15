@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ContentMain_ParentLayout"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.aradtour.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        style="@style/ContentMain_ViewPager" />
+
+    <ScrollView style="@style/ContentMain_ScrollView">
+
+        <TextView style="@style/ContentMain_TextView" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavHeaderMain_TextStyle">
+        <item name="android:textSize">@dimen/NavHeaderMain_TextStyle_TextSize</item>
+        <item name="android:textColor">@color/NavHeaderMain_TextStyle_TextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/NavHeaderMain_TextStyle_ShadowColor</item>
+        <item name="android:shadowDx">@integer/NavHeaderMain_TextStyle_ShadowD</item>
+        <item name="android:shadowDy">@integer/NavHeaderMain_TextStyle_ShadowD</item>
+        <item name="android:shadowRadius">@integer/NavHeaderMain_TextStyle_ShadowRadius</item>
+        <item name="android:fontFamily">cursive</item>
+    </style>
+</resources>

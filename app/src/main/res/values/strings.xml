@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Arad Tour</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--City information to be displayed in the main content-->
+    <string name="city_info">\n
+        Location: Western Romania\n
+        County: Arad\n
+        Size: 15.5 sq. miles (39.8 sq. kilometers)\n
+        Elevation: 352 ft. (110 meters)\n
+        Population: 163,000\n
+        First documented: 1459 AD\n
+
+        \nStraddling the Mures River and occupying parts of both Crisana province and Banat,
+        Arad traces its history back to the 11th century. Arad developed as a major trading post
+        during the Turkish occupation, between 1551 and 1699. After 1699, the city was ruled by the
+        Habsburg Monarchy and in 1834 Arad was declared a \'free royal town\' by Emperor Francis I of
+        Austria.\n
+
+        \nOn April 10, 1913 the first electrical railway in Eastern Europe was lunched on the Arad - Podgoria route.\n
+
+        \nToday, Arad is an important industrial center and transportation hub, as well as home to
+        two universities, a Romanian Orthodox theological seminary, a training school for teachers,
+        and a music conservatory. Churches and cathedrals in the city span four centuries,
+        several denominations, and architectural styles ranging from baroque to neoclassic.\n
+
+        \nArad County is also home to some important Orthodox monasteries, such as the ones from Hodos-Bodrog
+        (dating from 1177), Bezdin (dating from 1334), Gai (built in 1760-1762), the Sf. Maria – Radna Franciscan Monastery
+        (built in 1727 – 1826), the Princely Orthodox Church from Halmagiu (dating back to the 14th century),
+        the Roman-Catholic Church from Sânpetru German (built in 1774).\n
+        </string>
+
+    <!--Categories strings-->
+    <string name="MonumentsCategory">Historical Monuments</string>
+    <string name="MuseumsCategory">Museums</string>
+    <string name="RestaurantsCategory">Restaurants</string>
+    <string name="HotelsCategory">Hotels</string>
+
+    <string name="carTroubleText">Car trouble ?</string>
+    <string name="carTroubleWeb">https://www.facebook.com/Tractari-auto-VIKING-154948577998423/</string>
+
+    <string name="cityGuideText">ARAD City Guide</string>
+    <string name="cityGuideWeb">http://romaniatourism.com/arad.html</string>
+
+    <string name="NavHeaderText">Arad \nCity in Romania</string>
+    <string name="NavMenuItem1">Other</string>
+
+    <!--Hotel Activity strings-->
+    <!--Hotel Names-->
+    <string name="hotel_name_coandi">Hotel Coandi ***</string>
+    <string name="hotel_name_alexander">Alexander</string>
+    <string name="hotel_name_bestWestern">Best Western Central Hotel ***</string>
+    <string name="hotel_name_queen">Hotel Queen **</string>
+    <string name="hotel_name_continentalForum">Hotel Continental Forum ****</string>
+    <string name="hotel_name_iris">HOTEL IRIS ***</string>
+    <string name="hotel_name_lotus">HOTEL LOTUS **</string>
+    <string name="hotel_name_parc">Parc Hotel ***</string>
+    <string name="hotel_name_phoenix">Hotel Phoenix ***</string>
+    <string name="hotel_name_miky">Hotel Miky</string>
+    <string name="hotel_name_anaInn">Hotel Ana Inn</string>
+    <string name="hotel_name_leon">Leon Hotel</string>
+
+    <!--Hotel Address-->
+    <string name="hotel_address_coandi">Calea Romanilor 47</string>
+    <string name="hotel_address_alexander">CAL. RADNEI, 175</string>
+    <string name="hotel_address_bestWestern">Strada Horia 8</string>
+    <string name="hotel_address_queen">Strada Constantin Brâncuși 20–22</string>
+    <string name="hotel_address_continentalForum">Revolutiei Boulevard 79–81</string>
+    <string name="hotel_address_iris">Strada Căpitan Ignat 1</string>
+    <string name="hotel_address_lotus">Strada Nicolae Ștefu 8</string>
+    <string name="hotel_address_parc">Bulevardul General Dragalina 25</string>
+    <string name="hotel_address_phoenix">Calea Aurel Vlaicu 267</string>
+    <string name="hotel_address_miky">Calea Radnei 231</string>
+    <string name="hotel_address_anaInn">Calea Radnei 133</string>
+    <string name="hotel_address_leon">Bulevardul Nicolae Titulescu nr. 5</string>
+
+    <!--Monuments Activity strings-->
+    <!--Monuments Names-->
+    <string name="monuments_name_palaceOfCulture">The Palace of Culture</string>
+    <string name="monuments_name_administrativePalace">The Administrative Palace</string>
+    <string name="monuments_name_publicFinances">Gen. Dir. of Public Finances</string>
+    <string name="monuments_name_formerPrefecture">The former Prefecture</string>
+    <string name="monuments_name_ioanSlaviciTheatre">The “Ioan Slavici” Theatre</string>
+    <string name="monuments_name_moiseNicoaraCollege">The “Moise Nicoară” College</string>
+    <string name="monuments_name_neumannPalace">Neumann Palace</string>
+    <string name="monuments_name_andrenyiPalace">The Andrenyi Palace</string>
+    <string name="monuments_name_cenadPalace">Cenad Palace</string>
+    <string name="monuments_name_evangelicalLutheranChurch">Evangelical Lutheran Church</string>
+    <string name="monuments_name_romanCatholicChurch">Roman Catholic Cathedral</string>
+    <string name="monuments_name_szantayPalace">Szántay Palace</string>
+    <string name="monuments_name_nationalBank">The National Bank</string>
+    <string name="monuments_name_bohusPalace">Bohus Palace</string>
+    <string name="monuments_name_hermannGyulaPalace">Hermann Gyula Palace</string>
+    <string name="monuments_name_victoriaBank">The former “Victoria” Bank</string>
+    <string name="monuments_name_martyrGenerals">The “13 Martyr Generals”</string>
+    <string name="monuments_name_oldCasino">The Old Casino</string>
+    <string name="monuments_name_justicePalace">Palace of Justice</string>
+    <string name="monuments_name_neologistSynagogue">Neologist Synagogue</string>
+    <string name="monuments_name_normalGirlsSchool">Normal School for Girls</string>
+    <string name="monuments_name_romanianPreparandia">The Romanian Preparandia</string>
+    <string name="monuments_name_ensembleOfAradFortress">The Ensemble of Arad Fortress</string>
+    <string name="monuments_name_stJohnOrthodoxCathedral">“St. John” Orthodox Cathedral</string>
+    <string name="monuments_name_serbianChurch">The Serbian Church of Arad</string>
+    <string name="monuments_name_trajanBridge">“Trajan” Bridge</string>
+
+    <!--Monuments Address-->
+    <string name="monuments_address_palaceOfCulture">1911 – 1913\n1 George Enescu Square</string>
+    <string name="monuments_address_administrativePalace">1874 – 1876\n75 Revolutiei Boulevard</string>
+    <string name="monuments_address_publicFinances">1821\n79 Revolution Boulevard</string>
+    <string name="monuments_address_formerPrefecture">1870 – 1871\n81 Revolution Boulevard</string>
+    <string name="monuments_address_ioanSlaviciTheatre">1874\n103 Revolution Boulevard</string>
+    <string name="monuments_address_moiseNicoaraCollege">1869 – 1873\n1 Margareta Bibici Square</string>
+    <string name="monuments_address_neumannPalace">1911 – 1913\n78 Revolution Boulevard</string>
+    <string name="monuments_address_andrenyiPalace">1880 – 1890\n69 Revolution Boulevard</string>
+    <string name="monuments_address_cenadPalace">Late 19th century\n73 Revolution Boulevard</string>
+    <string name="monuments_address_evangelicalLutheranChurch">1906\n61 Revolution Bulevard</string>
+    <string name="monuments_address_romanCatholicChurch">1902 – 1904\n96A Revolution Bulevard</string>
+    <string name="monuments_address_szantayPalace">1911\n3–5 Horia Street</string>
+    <string name="monuments_address_nationalBank">1905 – 1906\n72 Revolution Bulevard</string>
+    <string name="monuments_address_bohusPalace">1910\n1–3 Vasile Goldiș street</string>
+    <string name="monuments_address_hermannGyulaPalace">1850 – 1900\n96 Revolution Boulevard</string>
+    <string name="monuments_address_victoriaBank">1850 – 1900\n2 Horia street</string>
+    <string name="monuments_address_martyrGenerals">1881\nSubcetate District</string>
+    <string name="monuments_address_oldCasino">1872\n27 Bulevard General Ion Dragalina</string>
+    <string name="monuments_address_justicePalace">1892\n2 General Vasile Milea Street</string>
+    <string name="monuments_address_neologistSynagogue">1827 – 1834\n10 Tribunu Dobra Street</string>
+    <string name="monuments_address_normalGirlsSchool">1909\n9 Lucian Blaga Street</string>
+    <string name="monuments_address_romanianPreparandia">1812\n13 Preparandia Street</string>
+    <string name="monuments_address_ensembleOfAradFortress">1763 – 1783\nSubcetate District</string>
+    <string name="monuments_address_stJohnOrthodoxCathedral">1862 – 1865\n15 Cathedral Square</string>
+    <string name="monuments_address_serbianChurch">1698 – 1702\n1 Serbian Square</string>
+    <string name="monuments_address_trajanBridge">1906\nOver the Mureș River</string>
+
+    <!--Museums Activity strings-->
+    <!--Museums Names-->
+    <string name="museum_name_art">Art Museum</string>
+    <string name="museum_name_CountyHistory">County History Museum</string>
+    <string name="museum_name_NaturalSiences">Natural Sciences Museum</string>
+
+    <!--Museums Address-->
+    <string name="museum_address_art">Str. Gheorghe Popa 2–4</string>
+    <string name="museum_address_CountyHistory">Piata George Enescu 1</string>
+    <string name="museum_address_NaturalSiences">Piata George Enescu 1</string>
+
+    <!--Restaurants Activity strings-->
+    <!--Restaurants Names-->
+    <string name="restaurant_name_emaDelMar">Restaurant Ema Del Mar</string>
+    <string name="restaurant_name_ratio">Rațio</string>
+    <string name="restaurant_name_don">Restaurant Don</string>
+    <string name="restaurant_name_pergola">La Pergola Ristorante Pizzeria</string>
+    <string name="restaurant_name_curteaVeche">Curtea Veche</string>
+    <string name="restaurant_name_euphoriaBiergarten">Euphoria Biergarten</string>
+    <string name="restaurant_name_ratioBeach">Ratio Beach</string>
+    <string name="restaurant_name_apetitBistro">Apetit Bistro</string>
+    <string name="restaurant_name_casaJelen">Casa Jelen Ház</string>
+    <string name="restaurant_name_casaBulzan">Casa Bulzan</string>
+    <string name="restaurant_name_pizzaCoandi">Pizza Coandi</string>
+
+    <!--Restaurants Address-->
+    <string name="restaurant_address_emaDelMar">Strada Episcopiei</string>
+    <string name="restaurant_address_ratio">Strada Grigore Alexandrescu 1</string>
+    <string name="restaurant_address_don">Strada Nicolae Bălcescu 1</string>
+    <string name="restaurant_address_pergola">Bulevardul Revoluției</string>
+    <string name="restaurant_address_curteaVeche">Bulevardul Revoluției 85</string>
+    <string name="restaurant_address_euphoriaBiergarten">Strada 1 Decembrie 1918</string>
+    <string name="restaurant_address_ratioBeach">Str. Malul Muresului</string>
+    <string name="restaurant_address_apetitBistro">Bulevardul Revoluției 63</string>
+    <string name="restaurant_address_casaJelen">Mihai Eminescu 55 – 57</string>
+    <string name="restaurant_address_casaBulzan">Strada Mucius Scaevola 2–6</string>
+    <string name="restaurant_address_pizzaCoandi">Strada Nicolae Bălcescu 5</string>
+
+</resources>

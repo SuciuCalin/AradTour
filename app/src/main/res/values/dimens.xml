@@ -1,0 +1,25 @@
+<resources>
+    <!--content_main.xml dimens-->
+    <dimen name="ContentMain_ParentLayout_Margin">8dp</dimen>
+    <dimen name="ContentMain_ChildrenLayout_Height">0dp</dimen>
+    <dimen name="ContentMain_ViewPager_BottomMargin">8dp</dimen>
+    <integer name="ContentMain_ViewPager_Weight">2</integer>
+    <integer name="ContentMain_ScrollView_Weight">1</integer>
+
+    <!--list_item.xml dimens-->
+    <dimen name="ListItem_ParentLayout_Height">100dp</dimen>
+    <dimen name="ListItem_ParentLayout_minHeight">100dp</dimen>
+    <dimen name="ListItem_ImageView_Width">100dp</dimen>
+    <dimen name="ListItem_TextViewsLayout_PaddingLeft">16dp</dimen>
+    <dimen name="ListItem_TextViews_Height">50dp</dimen>
+    <integer name="ListItem_TextViews_Weight">1</integer>
+
+    <!--nav_header_main.xml dimens-->
+    <dimen name="NavHeaderMain_ParentLayout_Height">254dp</dimen>
+    <dimen name="NavHeaderMain_ParentLayout_Padding">16dp</dimen>
+    <dimen name="NavHeaderMain_TextView_PaddingTop">16dp</dimen>
+    <dimen name="NavHeaderMain_TextStyle_TextSize">22sp</dimen>
+    <integer name="NavHeaderMain_TextStyle_ShadowD">0</integer>
+    <integer name="NavHeaderMain_TextStyle_ShadowRadius">50</integer>
+
+</resources>

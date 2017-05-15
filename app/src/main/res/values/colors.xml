@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/darker_gray</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--list_item.xml colors-->
+    <color name="ListItem_TextViews_TextColor">@android:color/black</color>
+
+    <!--nav_header_main.xml colors-->
+    <color name="NavHeaderMain_TextStyle_TextColor">@android:color/black</color>
+    <color name="NavHeaderMain_TextStyle_ShadowColor">@android:color/darker_gray</color>
+</resources>
