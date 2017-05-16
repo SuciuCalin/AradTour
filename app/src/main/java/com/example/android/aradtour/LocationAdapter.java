@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * Created by JukUm on 5/13/2017.
@@ -28,37 +30,44 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
+    public View getView(int position, View listItemView, ViewGroup parent) {
+
+        //using a ViewHolder to reference the child views for later actions
+        ViewHolder holder;
+        if (listItemView != null) {
+            holder = (ViewHolder) listItemView.getTag();
+        } else {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
+            holder = new ViewHolder(listItemView);
+            listItemView.setTag(holder);
         }
 
-        //find and set the location Name in the list
         Location currentLocation = getItem(position);
-        TextView placeName = (TextView) listItemView.findViewById(R.id.place_name);
         if (currentLocation != null) {
-            placeName.setText(currentLocation.getPlaceName());
+            holder.placeName.setText(currentLocation.getPlaceName());
+            holder.placeAddress.setText(currentLocation.getPlaceAddress());
         }
 
-        //find and set the location Address in the list
-        TextView placeAddress = (TextView) listItemView.findViewById(R.id.place_address);
-        if (currentLocation != null) {
-            placeAddress.setText(currentLocation.getPlaceAddress());
+        if (currentLocation.hasImage()) {
+            holder.imageView.setImageResource(currentLocation.getImageResourceId());
+            holder.imageView.setVisibility(View.VISIBLE);
+        } else {
+            holder.imageView.setVisibility(View.GONE);
         }
-
-        //find and set the location Image in the list
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        if (currentLocation != null) {
-            if (currentLocation.hasImage()) {
-                imageView.setImageResource(currentLocation.getImageResourceId());
-                imageView.setVisibility(View.VISIBLE);
-            } else {
-                imageView.setVisibility(View.GONE);
-            }
-        }
-
         return listItemView;
+    }
+
+    static class ViewHolder {
+        @BindView(R.id.place_name)
+        TextView placeName;
+        @BindView(R.id.place_address)
+        TextView placeAddress;
+        @BindView(R.id.image)
+        ImageView imageView;
+
+        public ViewHolder(View view) {
+            ButterKnife.bind(this, view);
+        }
     }
 }
