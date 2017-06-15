@@ -1,4 +1,48 @@
-Screenshots:
+# Tour Guide App
+<h2>Project Overview:</h2>
+
+The final project is a chance for you to combine and practice everything you learned in this section of the Nanodegree program. You will be making your own multi-screen Android app to share your knowledge about a city you are very familiar with.
+
+The goal is to create a tour guide app which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city. It can contain all the best known secrets that only locals know. It’s up to you which categories you want to provide, as well as what information to provide in each category.
+
+<h3>Requirements</h3>
+
+<ul>
+<li><b>App contains at least 4 lists of relevant attractions for a location</b></li>
+<br>
+<li><b>User can navigate between lists using a central screen, a NavDrawer, or a View pager.</li></b>
+<br>
+<li><b>Each list item contains information about an event, restaurant, historical site, or similar.</b></li>
+<br>
+<li><b>At least one list includes pictures of the location.</b></li>
+<br>
+<li><b>The code adheres to all of the following best practices:</b>
+  <ul><li>Text sizes are defined in sp</li>
+  <li>Lengths are defined in dp</li>
+  <li>Padding and margin is used appropriately, such that the views are not crammed up against each other.</li>
+</ul></li>
+<br>
+<li><b>App contains a custom object for storing location information .</li></b>
+<br>
+<li><b>App uses a custom adapter to populate the layout with views based on instances of the custom class.</li></b>
+<br>
+<li><b>All strings are stored in the strings.xml resource file.</li></b>
+<br>
+<li><b>All images are stored as drawables.
+<br>All drawables are stored at multiple densities.</li></b>
+<br>
+<li><b>The code runs without errors.</li></b>
+<br>
+<li><b>Code is easily readable such that a fellow programmer can understand the purpose of the app.</li></b>
+<br>
+<li><b>All variables, methods, and resource IDs are descriptively named such that another developer reading the code can easily understand their function.</li></b>
+<br>
+<li><b>The code is properly formatted i.e. there are no unnecessary blank lines; there are no unused variables or methods; there is no commented out code.
+<br>The code also has proper indentation when defining variables and methods.</li></b>
+<br></ul>
+
+# Arad Tour
+<h2>Screenshots:</h2>
 
 ![screenshot_20170515-230316](https://cloud.githubusercontent.com/assets/27139870/26077322/55895fd0-39c4-11e7-8cd2-4202fdd18714.jpg)
 ![screenshot_20170515-230338](https://cloud.githubusercontent.com/assets/27139870/26077325/5706b632-39c4-11e7-9a2e-ccf45e11ecf0.jpg)
